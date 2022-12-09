@@ -12,7 +12,7 @@ And set the root password:
 - docker exec -ti debian-cockpit passwd 
 
 ### Run the image using podman:
-- podman run -d --privileged docker.io/hurenkam/debian-cockpit:latest
+- podman run -d --privileged --name debina-cockpit docker.io/hurenkam/debian-cockpit:latest
 
 And set the root password:
 
