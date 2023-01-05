@@ -19,7 +19,7 @@ And set the root password:
 - podman exec -ti debian-cockpit passwd 
 
 ### Access cockpit or ssh
-Point your browser to https://<hostname>:9090 where you find a running cockpit instance
+Point your browser to https://<<hostname>>:9090 where you find a running cockpit instance
 or use ssh <hostname> to log into a console.
 
 ## Source:
